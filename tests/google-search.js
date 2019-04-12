@@ -1,7 +1,14 @@
 /* globals gauge*/
 "use strict";
 const { openBrowser,write, closeBrowser, goto, click } = require('taiko');
-const assert = require("assert");
+
+beforeSuite(async () => {
+    await openBrowser({ headless: true })
+});
+
+afterSuite(async () => {
+    await closeBrowser();
+});
 
 step("Open google.com", async () => {
     await goto("https://google.com");
