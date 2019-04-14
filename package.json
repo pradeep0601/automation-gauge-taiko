@@ -1,5 +1,5 @@
 {
-  "name": "automation-gauge-taiko",
+  "name": "automation-gauge-taiko-app",
   "version": "0.0.1",
   "description": "Starter template for writing javascript tests for gauge, integrating it with grunt and jenkins",
   "scripts": {
