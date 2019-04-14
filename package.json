@@ -1,7 +1,7 @@
 {
-  "name": "gauge-taiko-template",
+  "name": "automation-gauge-taiko",
   "version": "0.0.1",
-  "description": "Starter template for writing JavaScript tests for Gauge",
+  "description": "Starter template for writing JavaScript tests for Gauge, integrating it with grunt and jenkins",
   "scripts": {
     "test": "gauge run specs/"
   },
