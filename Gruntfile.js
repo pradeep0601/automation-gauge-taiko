@@ -23,8 +23,8 @@ module.exports = (grunt) => {
 
     grunt.registerTask('github', [ 'run:github' ]);
     
-   grunt.registerTask('taiko', (target) => {
-       console.log(`taks->taiko: target: ${target}`);
+   grunt.registerTask('test', (target) => {
+       console.log(`task->test: target: ${target}`);
        const tasks = [];
        switch (target) {
            case 'google':
