@@ -1,9 +1,6 @@
 module.exports = (grunt) => { 
     grunt.loadNpmTasks('grunt-run');
     grunt.initConfig({
-        gauge: {
-            gaugeTest: 'gauge run specs'
-        },
         run: {
             options: {
                 // ...
