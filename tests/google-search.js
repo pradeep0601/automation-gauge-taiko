@@ -1,9 +1,10 @@
 /* globals gauge*/
 "use strict";
 const { openBrowser,write, closeBrowser, goto, click } = require('taiko');
+const headless = process.env.headless_chrome.toLowerCase() === 'true';
 
 beforeSuite(async () => {
-    await openBrowser({ headless: true })
+    await openBrowser({ headless: headless })
 });
 
 afterSuite(async () => {
