@@ -14,10 +14,11 @@ module.exports = (grunt) => {
         }
     });
 
-    grunt.registerTask('google', () => {
-        grunt.task.run('run:google');
-    });
+    // grunt.registerTask('google', () => {
+    //     grunt.task.run('run:google');
+    // });
 
+    grunt.registerTask('google', [ 'run:google' ]);
     grunt.registerTask('github', [ 'run:github' ]);
     
    grunt.registerTask('test', (target) => {
