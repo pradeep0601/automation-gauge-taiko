@@ -17,7 +17,7 @@ pipeline {
         stage('Test') { 
             steps {
                 echo 'Executing the integration test...'
-                bat './node_modules/.bin/grunt test'
+                bat 'grunt test'
             }
         }
         stage('Deploy') { 
