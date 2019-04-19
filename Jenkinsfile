@@ -11,13 +11,13 @@ pipeline {
         stage('Install dependencies') {
             steps {
                 echo 'Installing the dependencies...'
-                sh 'npm install'
+                bat 'npm install'
             }
         }
         stage('Test') { 
             steps {
                 echo "Executing the integration test...";
-                sh 'grunt test'
+                bat 'grunt test'
             }
         }
         stage('Deploy') { 
