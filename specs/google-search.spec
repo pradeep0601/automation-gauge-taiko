@@ -3,6 +3,6 @@ spec file to test google search
 
 ## Google Search for taiko
 
-* Open google.com
-* Do Search for "taiko test automation"
-* Click on "Google Search"
+* open google.com
+* do Search for "taiko test automation"
+* click on element having text: "Google Search"
